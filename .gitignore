@@ -3,10 +3,14 @@
 .playwright-mcp/*
 .vscode/*
 
+# EXTENSION
+extension/extension.zip
+
 # FRONTEND (OVERLAY)
 obs-megabonk-overlay/package-lock.json
 obs-megabonk-overlay/dist/
 obs-megabonk-overlay/node_modules/
+obs-megabonk-overlay/README.md
 
 # BACKEND (RELAY SERVER)
 relay-server/node_modules/
@@ -19,9 +23,8 @@ relay-server/*.log
 relay-server/tray/node_modules/
 relay-server/tray/package-lock.json
 relay-server/tray/README.md
-# REPO IGNORES
 
+# REPO IGNORES
 MEGABONK_GAME_KNOWLEDGE.md
 RELAY_SERVER_DOCUMENTATION.md
-README.md
 .env
