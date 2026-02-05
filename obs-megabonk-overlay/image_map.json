@@ -1,0 +1,1077 @@
+{
+  "heroes": [
+    {
+      "id": 34,
+      "ingameId": 14,
+      "name": "Amog",
+      "imageSrc": "/Game Icons/heroes/amog.png",
+      "weaponId": 53,
+      "weaponName": "Poison Flask"
+    },
+    {
+      "id": 28,
+      "ingameId": 7,
+      "name": "Athena",
+      "imageSrc": "/Game Icons/heroes/athena.png",
+      "weaponId": 39,
+      "weaponName": "Aegis"
+    },
+    {
+      "id": 31,
+      "ingameId": 10,
+      "name": "Bandit",
+      "imageSrc": "/Game Icons/heroes/bandit.png",
+      "weaponId": 46,
+      "weaponName": "Dexecutioner"
+    },
+    {
+      "id": 30,
+      "ingameId": 8,
+      "name": "Birdo",
+      "imageSrc": "/Game Icons/heroes/birdo.png",
+      "weaponId": 45,
+      "weaponName": "Tornado"
+    },
+    {
+      "id": 32,
+      "ingameId": 9,
+      "name": "Bush",
+      "imageSrc": "/Game Icons/heroes/bush.png",
+      "weaponId": 47,
+      "weaponName": "Sniper rifle"
+    },
+    {
+      "id": 22,
+      "ingameId": 1,
+      "name": "Calcium",
+      "imageSrc": "/Game Icons/heroes/calcium.png",
+      "weaponId": 33,
+      "weaponName": "Bone"
+    },
+    {
+      "id": 24,
+      "ingameId": 3,
+      "name": "CL4NK",
+      "imageSrc": "/Game Icons/heroes/clank.png",
+      "weaponId": 35,
+      "weaponName": "Revolver"
+    },
+    {
+      "id": 39,
+      "ingameId": 18,
+      "name": "Dicehead",
+      "imageSrc": "/Game Icons/heroes/dicehead.png",
+      "weaponId": 58,
+      "weaponName": "Dice"
+    },
+    {
+      "id": 21,
+      "ingameId": 0,
+      "name": "Fox",
+      "imageSrc": "/Game Icons/heroes/fox.png",
+      "weaponId": 32,
+      "weaponName": "Fire Staff"
+    },
+    {
+      "id": 25,
+      "ingameId": 4,
+      "name": "Megachad",
+      "imageSrc": "/Game Icons/heroes/megachad.png",
+      "weaponId": 36,
+      "weaponName": "Aura"
+    },
+    {
+      "id": 29,
+      "ingameId": 11,
+      "name": "Monke",
+      "imageSrc": "/Game Icons/heroes/monke.png",
+      "weaponId": 44,
+      "weaponName": "Bananarang"
+    },
+    {
+      "id": 36,
+      "ingameId": 16,
+      "name": "Ninja",
+      "imageSrc": "/Game Icons/heroes/ninja.png",
+      "weaponId": 55,
+      "weaponName": "Katana"
+    },
+    {
+      "id": 33,
+      "ingameId": 12,
+      "name": "Noelle",
+      "imageSrc": "/Game Icons/heroes/noelle.png",
+      "weaponId": 48,
+      "weaponName": "Frostwalker"
+    },
+    {
+      "id": 26,
+      "ingameId": 5,
+      "name": "Ogre",
+      "imageSrc": "/Game Icons/heroes/ogre.png",
+      "weaponId": 37,
+      "weaponName": "Axe"
+    },
+    {
+      "id": 41,
+      "ingameId": 20,
+      "name": "Roberto",
+      "imageSrc": "/Game Icons/heroes/roberto.png",
+      "weaponId": 62,
+      "weaponName": "Scythe"
+    },
+    {
+      "id": 27,
+      "ingameId": 6,
+      "name": "Robinette",
+      "imageSrc": "/Game Icons/heroes/robinette.png",
+      "weaponId": 38,
+      "weaponName": "Bow"
+    },
+    {
+      "id": 40,
+      "ingameId": 19,
+      "name": "Sir Chadwell",
+      "imageSrc": "/Game Icons/heroes/chadwell.png",
+      "weaponId": 60,
+      "weaponName": "Corrupt Sword"
+    },
+    {
+      "id": 23,
+      "ingameId": 2,
+      "name": "Sir Oofie",
+      "imageSrc": "/Game Icons/heroes/knight.png",
+      "weaponId": 34,
+      "weaponName": "Sword"
+    },
+    {
+      "id": 35,
+      "ingameId": 15,
+      "name": "Spaceman",
+      "imageSrc": "/Game Icons/heroes/spaceman.png",
+      "weaponId": 54,
+      "weaponName": "Black Hole"
+    },
+    {
+      "id": 38,
+      "ingameId": 13,
+      "name": "Tony McZoom",
+      "imageSrc": "/Game Icons/heroes/tony.png",
+      "weaponId": 57,
+      "weaponName": "Bluetooth Dagger"
+    },
+    {
+      "id": 37,
+      "ingameId": 17,
+      "name": "Vlad",
+      "imageSrc": "/Game Icons/heroes/vlad.png",
+      "weaponId": 56,
+      "weaponName": "Blood Magic"
+    }
+  ],
+  "weapons": [
+    {
+      "id": 39,
+      "ingameId": 7,
+      "name": "Aegis",
+      "imageSrc": "/Game Icons/weapons/Aegis.png"
+    },
+    {
+      "id": 36,
+      "ingameId": 4,
+      "name": "Aura",
+      "imageSrc": "/Game Icons/weapons/Aura.png"
+    },
+    {
+      "id": 37,
+      "ingameId": 5,
+      "name": "Axe",
+      "imageSrc": "/Game Icons/weapons/Axe.png"
+    },
+    {
+      "id": 44,
+      "ingameId": 12,
+      "name": "Bananarang",
+      "imageSrc": "/Game Icons/weapons/Bananarang.png"
+    },
+    {
+      "id": 54,
+      "ingameId": 22,
+      "name": "Black Hole",
+      "imageSrc": "/Game Icons/weapons/BlackHole.png"
+    },
+    {
+      "id": 56,
+      "ingameId": 24,
+      "name": "Blood Magic",
+      "imageSrc": "/Game Icons/weapons/BloodMagic.png"
+    },
+    {
+      "id": 57,
+      "ingameId": 25,
+      "name": "Bluetooth Dagger",
+      "imageSrc": "/Game Icons/weapons/Bluetooth Knife.png"
+    },
+    {
+      "id": 33,
+      "ingameId": 1,
+      "name": "Bone",
+      "imageSrc": "/Game Icons/weapons/Bone.png"
+    },
+    {
+      "id": 38,
+      "ingameId": 6,
+      "name": "Bow",
+      "imageSrc": "/Game Icons/weapons/Bow.png"
+    },
+    {
+      "id": 51,
+      "ingameId": 19,
+      "name": "Chunkers",
+      "imageSrc": "/Game Icons/weapons/Chunkers.png"
+    },
+    {
+      "id": 60,
+      "ingameId": 28,
+      "name": "Corrupt Sword",
+      "imageSrc": "/Game Icons/weapons/CorruptedSword.png"
+    },
+    {
+      "id": 46,
+      "ingameId": 14,
+      "name": "Dexecutioner",
+      "imageSrc": "/Game Icons/weapons/Dexecutioner.png"
+    },
+    {
+      "id": 58,
+      "ingameId": 26,
+      "name": "Dice",
+      "imageSrc": "/Game Icons/weapons/Dice.png"
+    },
+    {
+      "id": 50,
+      "ingameId": 18,
+      "name": "Dragon's Breath",
+      "imageSrc": "/Game Icons/weapons/DragonsBreath.png"
+    },
+    {
+      "id": 32,
+      "ingameId": 0,
+      "name": "Fire Staff",
+      "imageSrc": "/Game Icons/weapons/Firestaff.png"
+    },
+    {
+      "id": 42,
+      "ingameId": 10,
+      "name": "Flamewalker",
+      "imageSrc": "/Game Icons/weapons/Firewalker.png"
+    },
+    {
+      "id": 48,
+      "ingameId": 16,
+      "name": "Frostwalker",
+      "imageSrc": "/Game Icons/weapons/Frostwalker.png"
+    },
+    {
+      "id": 59,
+      "ingameId": 27,
+      "name": "Hero Sword",
+      "imageSrc": "/Game Icons/weapons/HeroSword.png"
+    },
+    {
+      "id": 55,
+      "ingameId": 23,
+      "name": "Katana",
+      "imageSrc": "/Game Icons/weapons/Katana.png"
+    },
+    {
+      "id": 41,
+      "ingameId": 9,
+      "name": "Lightning Staff",
+      "imageSrc": "/Game Icons/weapons/LightningStaff.png"
+    },
+    {
+      "id": 52,
+      "ingameId": 20,
+      "name": "Mine",
+      "imageSrc": "/Game Icons/weapons/Mine.png"
+    },
+    {
+      "id": 53,
+      "ingameId": 21,
+      "name": "Poison Flask",
+      "imageSrc": "/Game Icons/weapons/Poison Flask.png"
+    },
+    {
+      "id": 35,
+      "ingameId": 3,
+      "name": "Revolver",
+      "imageSrc": "/Game Icons/weapons/Revolver.png"
+    },
+    {
+      "id": 43,
+      "ingameId": 11,
+      "name": "Rockets",
+      "imageSrc": "/Game Icons/weapons/SluttyRocket.png"
+    },
+    {
+      "id": 62,
+      "ingameId": 30,
+      "name": "Scythe",
+      "imageSrc": "/Game Icons/weapons/Scythe.png"
+    },
+    {
+      "id": 61,
+      "ingameId": 29,
+      "name": "Shotgun",
+      "imageSrc": "/Game Icons/weapons/Shotgun.png"
+    },
+    {
+      "id": 47,
+      "ingameId": 15,
+      "name": "Sniper rifle",
+      "imageSrc": "/Game Icons/weapons/Sniper.png"
+    },
+    {
+      "id": 49,
+      "ingameId": 17,
+      "name": "Space Noodle",
+      "imageSrc": "/Game Icons/weapons/Space Noodle.png"
+    },
+    {
+      "id": 34,
+      "ingameId": 2,
+      "name": "Sword",
+      "imageSrc": "/Game Icons/weapons/Sword.png"
+    },
+    {
+      "id": 45,
+      "ingameId": 13,
+      "name": "Tornado",
+      "imageSrc": "/Game Icons/weapons/Tornado.png"
+    }
+  ],
+  "tomes": [
+    {
+      "id": 27,
+      "ingameId": 1,
+      "name": "Agility Tome",
+      "imageSrc": "/Game Icons/tomes/SpeedTome.png"
+    },
+    {
+      "id": 31,
+      "ingameId": 5,
+      "name": "Armor Tome",
+      "imageSrc": "/Game Icons/tomes/ArmorTome.png"
+    },
+    {
+      "id": 38,
+      "ingameId": 12,
+      "name": "Attraction Tome",
+      "imageSrc": "/Game Icons/tomes/AttractionTome.png"
+    },
+    {
+      "id": 44,
+      "ingameId": 18,
+      "name": "Bloody Tome",
+      "imageSrc": "/Game Icons/tomes/BloodTOme.png"
+    },
+    {
+      "id": 48,
+      "ingameId": 24,
+      "name": "Chaos Tome",
+      "imageSrc": "/Game Icons/tomes/ChaosTome.png"
+    },
+    {
+      "id": 28,
+      "ingameId": 2,
+      "name": "Cooldown Tome",
+      "imageSrc": "/Game Icons/tomes/CooldownTome.png"
+    },
+    {
+      "id": 46,
+      "ingameId": 21,
+      "name": "Cursed Tome",
+      "imageSrc": "/Game Icons/tomes/CursedTome.png"
+    },
+    {
+      "id": 26,
+      "ingameId": 0,
+      "name": "Damage Tome",
+      "imageSrc": "/Game Icons/tomes/DamageTome.png"
+    },
+    {
+      "id": 36,
+      "ingameId": 10,
+      "name": "Duration Tome",
+      "imageSrc": "/Game Icons/tomes/DurationTome.png"
+    },
+    {
+      "id": 37,
+      "ingameId": 11,
+      "name": "Evasion Tome",
+      "imageSrc": "/Game Icons/tomes/EvasionTome.png"
+    },
+    {
+      "id": 41,
+      "ingameId": 15,
+      "name": "Gold Tome",
+      "imageSrc": "/Game Icons/tomes/GoldenTome.png"
+    },
+    {
+      "id": 32,
+      "ingameId": 6,
+      "name": "HP Tome",
+      "imageSrc": "/Game Icons/tomes/HealthTome.png"
+    },
+    {
+      "id": 30,
+      "ingameId": 4,
+      "name": "Knockback Tome",
+      "imageSrc": "/Game Icons/tomes/KnockbackTome.png"
+    },
+    {
+      "id": 39,
+      "ingameId": 13,
+      "name": "Luck Tome",
+      "imageSrc": "/Game Icons/tomes/LuckTome.png"
+    },
+    {
+      "id": 42,
+      "ingameId": 16,
+      "name": "Precision Tome",
+      "imageSrc": "/Game Icons/tomes/PrecisionTome.png"
+    },
+    {
+      "id": 35,
+      "ingameId": 9,
+      "name": "Projectile Tome",
+      "imageSrc": "/Game Icons/tomes/ProjectileSpeedTOme.png"
+    },
+    {
+      "id": 29,
+      "ingameId": 3,
+      "name": "Quantity Tome",
+      "imageSrc": "/Game Icons/tomes/QuantityTome.png"
+    },
+    {
+      "id": 33,
+      "ingameId": 7,
+      "name": "Regen Tome",
+      "imageSrc": "/Game Icons/tomes/RegenerationTome.png"
+    },
+    {
+      "id": 43,
+      "ingameId": 17,
+      "name": "Shield Tome",
+      "imageSrc": "/Game Icons/tomes/ShieldTome.png"
+    },
+    {
+      "id": 47,
+      "ingameId": 22,
+      "name": "Silver Tome",
+      "imageSrc": "/Game Icons/tomes/SilverTome.png"
+    },
+    {
+      "id": 34,
+      "ingameId": 8,
+      "name": "Size Tome",
+      "imageSrc": "/Game Icons/tomes/SizeTome.png"
+    },
+    {
+      "id": 45,
+      "ingameId": 19,
+      "name": "Thorns Tome",
+      "imageSrc": "/Game Icons/tomes/Retaliation.png"
+    },
+    {
+      "id": 40,
+      "ingameId": 14,
+      "name": "XP Tome",
+      "imageSrc": "/Game Icons/tomes/XpTome.png"
+    }
+  ],
+  "items": [
+    {
+      "id": 83,
+      "ingameId": 7,
+      "name": "Battery",
+      "imageSrc": "/Game Icons/items/ItemBattery.png",
+      "rarity": 0
+    },
+    {
+      "id": 84,
+      "ingameId": 58,
+      "name": "Borgar",
+      "imageSrc": "/Game Icons/items/ItemBorgor.png",
+      "rarity": 0
+    },
+    {
+      "id": 85,
+      "ingameId": 65,
+      "name": "Boss Buster",
+      "imageSrc": "/Game Icons/items/ItemBossBuster.png",
+      "rarity": 0
+    },
+    {
+      "id": 86,
+      "ingameId": 68,
+      "name": "Cactus",
+      "imageSrc": "/Game Icons/items/ItemCactus.png",
+      "rarity": 0
+    },
+    {
+      "id": 87,
+      "ingameId": 35,
+      "name": "Clover",
+      "imageSrc": "/Game Icons/items/itemClover.png",
+      "rarity": 0
+    },
+    {
+      "id": 88,
+      "ingameId": 43,
+      "name": "Cursed Doll",
+      "imageSrc": "/Game Icons/items/ItemCursedDoll.png",
+      "rarity": 0
+    },
+    {
+      "id": 89,
+      "ingameId": 9,
+      "name": "Forbidden Juice",
+      "imageSrc": "/Game Icons/items/ItemShadowJuice.png",
+      "rarity": 0
+    },
+    {
+      "id": 90,
+      "ingameId": 28,
+      "name": "Ghost",
+      "imageSrc": "/Game Icons/items/ItemGhost.png",
+      "rarity": 0
+    },
+    {
+      "id": 91,
+      "ingameId": 23,
+      "name": "Golden Glove",
+      "imageSrc": "/Game Icons/items/ItemGoldenGlove.png",
+      "rarity": 0
+    },
+    {
+      "id": 92,
+      "ingameId": 6,
+      "name": "Gym Sauce",
+      "imageSrc": "/Game Icons/items/ItemGymSauce.png",
+      "rarity": 0
+    },
+    {
+      "id": 93,
+      "ingameId": 70,
+      "name": "Ice Crystal",
+      "imageSrc": "/Game Icons/items/ItemIceCrystal.png",
+      "rarity": 0
+    },
+    {
+      "id": 82,
+      "ingameId": 0,
+      "name": "Key",
+      "imageSrc": "/Game Icons/items/ItemKey.png",
+      "rarity": 0
+    },
+    {
+      "id": 94,
+      "ingameId": 59,
+      "name": "Medkit",
+      "imageSrc": "/Game Icons/items/ItemMedkit.png",
+      "rarity": 0
+    },
+    {
+      "id": 95,
+      "ingameId": 13,
+      "name": "Moldy Cheese",
+      "imageSrc": "/Game Icons/items/ItemMoldyCheese.png",
+      "rarity": 0
+    },
+    {
+      "id": 96,
+      "ingameId": 42,
+      "name": "Oats",
+      "imageSrc": "/Game Icons/items/ItemOats.png",
+      "rarity": 0
+    },
+    {
+      "id": 161,
+      "ingameId": 82,
+      "name": "Old Mask",
+      "imageSrc": "/Game Icons/items/ItemOldMask.png",
+      "rarity": 0
+    },
+    {
+      "id": 97,
+      "ingameId": 38,
+      "name": "Skuleg",
+      "imageSrc": "/Game Icons/items/ItemSkuleg.png",
+      "rarity": 0
+    },
+    {
+      "id": 98,
+      "ingameId": 4,
+      "name": "Slippery Ring",
+      "imageSrc": "/Game Icons/items/ItemSlipperyRing.png",
+      "rarity": 0
+    },
+    {
+      "id": 99,
+      "ingameId": 67,
+      "name": "Tactical Glasses",
+      "imageSrc": "/Game Icons/items/ItemTacticalGoggles.png",
+      "rarity": 0
+    },
+    {
+      "id": 100,
+      "ingameId": 71,
+      "name": "Time Bracelet",
+      "imageSrc": "/Game Icons/items/ItemTimeBracelet.png",
+      "rarity": 0
+    },
+    {
+      "id": 101,
+      "ingameId": 30,
+      "name": "Turbo Socks",
+      "imageSrc": "/Game Icons/items/ItemTurboSocks.png",
+      "rarity": 0
+    },
+    {
+      "id": 102,
+      "ingameId": 77,
+      "name": "Wrench",
+      "imageSrc": "/Game Icons/items/ItemWrench.png",
+      "rarity": 0
+    },
+    {
+      "id": 104,
+      "ingameId": 34,
+      "name": "Backpack",
+      "imageSrc": "/Game Icons/items/ItemBackpack.png",
+      "rarity": 1
+    },
+    {
+      "id": 105,
+      "ingameId": 78,
+      "name": "Beacon",
+      "imageSrc": "/Game Icons/items/Itembeacon.png",
+      "rarity": 1
+    },
+    {
+      "id": 106,
+      "ingameId": 1,
+      "name": "Beer",
+      "imageSrc": "/Game Icons/items/ItemBeer.png",
+      "rarity": 1
+    },
+    {
+      "id": 107,
+      "ingameId": 55,
+      "name": "Brass Knuckles",
+      "imageSrc": "/Game Icons/items/ItemBrassKnuckle.png",
+      "rarity": 1
+    },
+    {
+      "id": 108,
+      "ingameId": 36,
+      "name": "Campfire",
+      "imageSrc": "/Game Icons/items/ItemCampfire.png",
+      "rarity": 1
+    },
+    {
+      "id": 109,
+      "ingameId": 5,
+      "name": "Coward's Cloak",
+      "imageSrc": "/Game Icons/items/ItemSpeedyCloak.png",
+      "rarity": 1
+    },
+    {
+      "id": 110,
+      "ingameId": 63,
+      "name": "Credit Card Red",
+      "imageSrc": "/Game Icons/items/ItemCreditCardRed.png",
+      "rarity": 1
+    },
+    {
+      "id": 111,
+      "ingameId": 10,
+      "name": "Demon Blade",
+      "imageSrc": "/Game Icons/items/ItemDemonBlade.png",
+      "rarity": 1
+    },
+    {
+      "id": 112,
+      "ingameId": 19,
+      "name": "Demonic Blood",
+      "imageSrc": "/Game Icons/items/ItemDemonBlood.png",
+      "rarity": 1
+    },
+    {
+      "id": 113,
+      "ingameId": 32,
+      "name": "Echo Shard",
+      "imageSrc": "/Game Icons/items/ItemEchoShard.png",
+      "rarity": 1
+    },
+    {
+      "id": 114,
+      "ingameId": 45,
+      "name": "Electric Plug",
+      "imageSrc": "/Game Icons/items/ItemElectricPlug.png",
+      "rarity": 1
+    },
+    {
+      "id": 115,
+      "ingameId": 27,
+      "name": "Feathers",
+      "imageSrc": "/Game Icons/items/ItemFeathers.png",
+      "rarity": 1
+    },
+    {
+      "id": 116,
+      "ingameId": 72,
+      "name": "Lightning Gloves",
+      "imageSrc": "/Game Icons/items/ItemGlovesLightning.png",
+      "rarity": 1
+    },
+    {
+      "id": 117,
+      "ingameId": 73,
+      "name": "Poison Gloves",
+      "imageSrc": "/Game Icons/items/ItemGlovesPoison.png",
+      "rarity": 1
+    },
+    {
+      "id": 118,
+      "ingameId": 24,
+      "name": "Golden Shield",
+      "imageSrc": "/Game Icons/items/ItemGoldenShield.png",
+      "rarity": 1
+    },
+    {
+      "id": 119,
+      "ingameId": 14,
+      "name": "Golden Sneakers",
+      "imageSrc": "/Game Icons/items/ItemGoldenSneakers.png",
+      "rarity": 1
+    },
+    {
+      "id": 120,
+      "ingameId": 56,
+      "name": "Idle Juice",
+      "imageSrc": "/Game Icons/items/IdleJuice.png",
+      "rarity": 1
+    },
+    {
+      "id": 122,
+      "ingameId": 66,
+      "name": "Leeching Crystal",
+      "imageSrc": "/Game Icons/items/ItemLeechingCrystal.png",
+      "rarity": 1
+    },
+    {
+      "id": 123,
+      "ingameId": 8,
+      "name": "Phantom Shroud",
+      "imageSrc": "/Game Icons/items/ItemPhantomShroud.png",
+      "rarity": 1
+    },
+    {
+      "id": 165,
+      "ingameId": 86,
+      "name": "Pumpkin",
+      "imageSrc": "/Game Icons/items/ItemPumpkin.png",
+      "rarity": 1
+    },
+    {
+      "id": 103,
+      "ingameId": 61,
+      "name": "Unstable Transfusion",
+      "imageSrc": "/Game Icons/items/Unstable Transfusion.png",
+      "rarity": 1
+    },
+    {
+      "id": 124,
+      "ingameId": 21,
+      "name": "Beefy Ring",
+      "imageSrc": "/Game Icons/items/ItemBeefyRing.png",
+      "rarity": 2
+    },
+    {
+      "id": 125,
+      "ingameId": 46,
+      "name": "Bob (Dead)",
+      "imageSrc": "/Game Icons/items/ItemBobDead.png",
+      "rarity": 2
+    },
+    {
+      "id": 164,
+      "ingameId": 85,
+      "name": "Bob's Light",
+      "imageSrc": "/Game Icons/items/ItemBobsLight.png",
+      "rarity": 2
+    },
+    {
+      "id": 126,
+      "ingameId": 64,
+      "name": "Credit Card Green",
+      "imageSrc": "/Game Icons/items/ItemCreditCardGreen.png",
+      "rarity": 2
+    },
+    {
+      "id": 127,
+      "ingameId": 20,
+      "name": "Demonic Soul",
+      "imageSrc": "/Game Icons/items/ItemDemonSoul.png",
+      "rarity": 2
+    },
+    {
+      "id": 128,
+      "ingameId": 39,
+      "name": "Eagle Claw",
+      "imageSrc": "/Game Icons/items/ItemEagleClaw.png",
+      "rarity": 2
+    },
+    {
+      "id": 129,
+      "ingameId": 60,
+      "name": "Gamer Goggles",
+      "imageSrc": "/Game Icons/items/GamerLens.png",
+      "rarity": 2
+    },
+    {
+      "id": 130,
+      "ingameId": 52,
+      "name": "Gas Mask",
+      "imageSrc": "/Game Icons/items/Gasmask.png",
+      "rarity": 2
+    },
+    {
+      "id": 131,
+      "ingameId": 74,
+      "name": "Blood Gloves",
+      "imageSrc": "/Game Icons/items/ItemGlovesBloody.png",
+      "rarity": 2
+    },
+    {
+      "id": 132,
+      "ingameId": 75,
+      "name": "Cursed Gloves",
+      "imageSrc": "/Game Icons/items/ItemGlovesCursed.png",
+      "rarity": 2
+    },
+    {
+      "id": 133,
+      "ingameId": 11,
+      "name": "Grandma's Secret Tonic",
+      "imageSrc": "/Game Icons/items/GrandmasSecretTonic.png",
+      "rarity": 2
+    },
+    {
+      "id": 121,
+      "ingameId": 57,
+      "name": "Kevin",
+      "imageSrc": "/Game Icons/items/Kevin.png",
+      "rarity": 2
+    },
+    {
+      "id": 134,
+      "ingameId": 48,
+      "name": "Mirror",
+      "imageSrc": "/Game Icons/items/ItemMirror.png",
+      "rarity": 2
+    },
+    {
+      "id": 135,
+      "ingameId": 80,
+      "name": "Quin's Mask",
+      "imageSrc": "/Game Icons/items/ItemQuinsMask.png",
+      "rarity": 2
+    },
+    {
+      "id": 141,
+      "ingameId": 37,
+      "name": "Turbo Skates",
+      "imageSrc": "/Game Icons/items/ItemRollerblades.png",
+      "rarity": 2
+    },
+    {
+      "id": 136,
+      "ingameId": 40,
+      "name": "Scarf",
+      "imageSrc": "/Game Icons/items/ItemScarf.png",
+      "rarity": 2
+    },
+    {
+      "id": 137,
+      "ingameId": 31,
+      "name": "Shattered Knowledge",
+      "imageSrc": "/Game Icons/items/ItemShatteredWisdom.png",
+      "rarity": 2
+    },
+    {
+      "id": 138,
+      "ingameId": 29,
+      "name": "Slutty Cannon",
+      "imageSrc": "/Game Icons/items/ItemSluttyCannon.png",
+      "rarity": 2
+    },
+    {
+      "id": 139,
+      "ingameId": 2,
+      "name": "Spiky Shield",
+      "imageSrc": "/Game Icons/items/ItemSpikyShieldf.png",
+      "rarity": 2
+    },
+    {
+      "id": 140,
+      "ingameId": 53,
+      "name": "Toxic Barrel",
+      "imageSrc": "/Game Icons/items/ToxicBarrel.png",
+      "rarity": 2
+    },
+    {
+      "id": 142,
+      "ingameId": 41,
+      "name": "Anvil",
+      "imageSrc": "/Game Icons/items/ItemAnvil.png",
+      "rarity": 3
+    },
+    {
+      "id": 143,
+      "ingameId": 62,
+      "name": "Bloody Cleaver",
+      "imageSrc": "/Game Icons/items/Bloody Cleaver.png",
+      "rarity": 3
+    },
+    {
+      "id": 144,
+      "ingameId": 3,
+      "name": "Bonker",
+      "imageSrc": "/Game Icons/items/ItemBonker.png",
+      "rarity": 3
+    },
+    {
+      "id": 145,
+      "ingameId": 16,
+      "name": "Chonkplate",
+      "imageSrc": "/Game Icons/items/Chonkplate.png",
+      "rarity": 3
+    },
+    {
+      "id": 146,
+      "ingameId": 22,
+      "name": "Dragonfire",
+      "imageSrc": "/Game Icons/items/ItemDragonfire.png",
+      "rarity": 3
+    },
+    {
+      "id": 147,
+      "ingameId": 44,
+      "name": "Energy Core",
+      "imageSrc": "/Game Icons/items/ItemEnergyCore.png",
+      "rarity": 3
+    },
+    {
+      "id": 148,
+      "ingameId": 12,
+      "name": "Giant Fork",
+      "imageSrc": "/Game Icons/items/ItemFork.png",
+      "rarity": 3
+    },
+    {
+      "id": 149,
+      "ingameId": 76,
+      "name": "Power Gloves",
+      "imageSrc": "/Game Icons/items/ItemGlovesPower.png",
+      "rarity": 3
+    },
+    {
+      "id": 151,
+      "ingameId": 54,
+      "name": "Holy Book",
+      "imageSrc": "/Game Icons/items/ItemHolyBook.png",
+      "rarity": 3
+    },
+    {
+      "id": 152,
+      "ingameId": 18,
+      "name": "Ice Cube",
+      "imageSrc": "/Game Icons/items/ItemIceCube.png",
+      "rarity": 3
+    },
+    {
+      "id": 153,
+      "ingameId": 49,
+      "name": "Joe's Dagger",
+      "imageSrc": "/Game Icons/items/JoesDagger.png",
+      "rarity": 3
+    },
+    {
+      "id": 154,
+      "ingameId": 17,
+      "name": "Lightning Orb",
+      "imageSrc": "/Game Icons/items/ItemLightningOrb.png",
+      "rarity": 3
+    },
+    {
+      "id": 155,
+      "ingameId": 26,
+      "name": "Overpowered Lamp",
+      "imageSrc": "/Game Icons/items/ItemOverpoweredLamp.png",
+      "rarity": 3
+    },
+    {
+      "id": 163,
+      "ingameId": 84,
+      "name": "Pot (stainless steel)",
+      "imageSrc": "/Game Icons/items/ItemPot.png",
+      "rarity": 3
+    },
+    {
+      "id": 162,
+      "ingameId": 83,
+      "name": "Snek",
+      "imageSrc": "/Game Icons/items/ItemSnek.png",
+      "rarity": 3
+    },
+    {
+      "id": 156,
+      "ingameId": 47,
+      "name": "Soul Harvester",
+      "imageSrc": "/Game Icons/items/ItemSoulHarvester.png",
+      "rarity": 3
+    },
+    {
+      "id": 157,
+      "ingameId": 51,
+      "name": "Speed Boi",
+      "imageSrc": "/Game Icons/items/Speed boi.png",
+      "rarity": 3
+    },
+    {
+      "id": 158,
+      "ingameId": 15,
+      "name": "Spicy Meatball",
+      "imageSrc": "/Game Icons/items/ItemSpicyMeatball.png",
+      "rarity": 3
+    },
+    {
+      "id": 159,
+      "ingameId": 33,
+      "name": "Sucky Magnet",
+      "imageSrc": "/Game Icons/items/ItemSuckyHoof.png",
+      "rarity": 3
+    },
+    {
+      "id": 160,
+      "ingameId": 25,
+      "name": "Za Warudo",
+      "imageSrc": "/Game Icons/items/ItemZaWarudo.png",
+      "rarity": 3
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "maxTimeSeconds": 600,
+      "events": [
+        {
+          "timeRemaining": 600,
+          "type": "level_start"
+        },
+        {
+          "timeRemaining": 420,
+          "type": "boss_spawn",
+          "boss": 1
+        },
+        {
+          "timeRemaining": 360,
+          "type": "swarm_start",
+          "durationSeconds": 30,
+          "swarm": 1
+        },
+        {
+          "timeRemaining": 180,
+          "type": "swarm_start",
+          "durationSeconds": 30,
+          "swarm": 2
+        },
+        {
+          "timeRemaining": 120,
+          "type": "boss_spawn",
+          "boss": 2
+        },
+        {
+          "timeRemaining": 0,
+          "type": "swarm_start",
+          "swarm": 3
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "maxTimeSeconds": 540,
+      "events": [
+        {
+          "timeRemaining": 540,
+          "type": "level_start"
+        },
+        {
+          "timeRemaining": 420,
+          "type": "boss_spawn",
+          "boss": 1
+        },
+        {
+          "timeRemaining": 360,
+          "type": "swarm_start",
+          "durationSeconds": 30,
+          "swarm": 1
+        },
+        {
+          "timeRemaining": 180,
+          "type": "swarm_start",
+          "durationSeconds": 30,
+          "swarm": 2
+        },
+        {
+          "timeRemaining": 120,
+          "type": "boss_spawn",
+          "boss": 2
+        },
+        {
+          "timeRemaining": 0,
+          "type": "swarm_start",
+          "swarm": 3
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "maxTimeSeconds": 480,
+      "events": [
+        {
+          "timeRemaining": 480,
+          "type": "level_start"
+        },
+        {
+          "timeRemaining": 390,
+          "type": "boss_spawn",
+          "boss": 1
+        },
+        {
+          "timeRemaining": 330,
+          "type": "swarm_start",
+          "durationSeconds": 30,
+          "swarm": 1
+        },
+        {
+          "timeRemaining": 240,
+          "type": "swarm_start",
+          "durationSeconds": 30,
+          "swarm": 2
+        },
+        {
+          "timeRemaining": 180,
+          "type": "boss_spawn",
+          "boss": 2
+        },
+        {
+          "timeRemaining": 0,
+          "type": "swarm_start",
+          "swarm": 3
+        }
+      ]
+    }
+  ]
+}

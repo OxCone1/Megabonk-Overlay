@@ -1,0 +1,27 @@
+{
+  "name": "megabonk-ws-relay",
+  "version": "1.0.0",
+  "description": "WebSocket relay server for MegaBonk WS Bridge extension",
+  "main": "relay-server.js",
+  "bin": "relay-server.js",
+  "scripts": {
+    "start": "node relay-server.js",
+    "build": "pkg . --targets node18-win-x64 --output dist/MegaBonkRelay.exe --compress GZip"
+  },
+  "pkg": {
+    "assets": [],
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist",
+    "compress": "GZip"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}

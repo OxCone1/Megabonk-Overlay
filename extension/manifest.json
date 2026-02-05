@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "MegaBonk WS Bridge",
+  "version": "1.0",
+  "description": "Intercepts WebSocket traffic on ladder.megabonk.su and forwards to relay server",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://ladder.megabonk.su/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://ladder.megabonk.su/*"],
+      "js": ["inject.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://ladder.megabonk.su/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

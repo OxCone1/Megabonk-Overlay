@@ -1,0 +1,50 @@
+{
+  "name": "megabonk-overlay",
+  "version": "1.0.0",
+  "description": "Overlay for Megabonk's ranked mod MegaLadder",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron .",
+    "dist": "electron-builder --win --x64 --publish never"
+  },
+  "author": "OxCone",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^40.0.0",
+    "electron-builder": "^26.5.0"
+  },
+  "dependencies": {
+    "electron-updater": "^6.7.3"
+  },
+  "build": {
+    "appId": "com.megabonk.overlay",
+    "productName": "MegaBonk Overlay",
+    "extraResources": [
+      {
+        "from": "../dist/MegaBonkRelay.exe",
+        "to": "MegaBonkRelay.exe"
+      },
+      {
+        "from": "../../obs-megabonk-overlay/dist",
+        "to": "overlay"
+      }
+    ],
+    "win": {
+      "icon": "images/megaicon_v2.ico",
+      "target": [
+        "nsis"
+      ],
+      "artifactName": "MegaBonkOverlay.exe"
+    },
+    "mac": {
+      "icon": "images/megaicon_v2.icns"
+    },
+    "linux": {
+      "icon": "images/megaicon_v2.png"
+    },
+    "directories": {
+      "output": "../dist"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# GENERAL IDE
+.github/*
+.playwright-mcp/*
+.vscode/*
+
+# FRONTEND (OVERLAY)
+obs-megabonk-overlay/package-lock.json
+obs-megabonk-overlay/dist/
+obs-megabonk-overlay/node_modules/
+
+# BACKEND (RELAY SERVER)
+relay-server/node_modules/
+relay-server/package-lock.json
+relay-server/dist/
+relay-server/start-hidden.vbs
+relay-server/*.log
+
+# TRAY APP
+relay-server/tray/node_modules/
+relay-server/tray/package-lock.json
+relay-server/tray/README.md
+# REPO IGNORES
+
+MEGABONK_GAME_KNOWLEDGE.md
+RELAY_SERVER_DOCUMENTATION.md
+README.md
+.env
