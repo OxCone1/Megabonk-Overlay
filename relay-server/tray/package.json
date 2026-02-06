@@ -15,7 +15,7 @@
     "build:tray:publish:win": "electron-builder --win --x64 --publish always",
     "build:tray:publish:linux": "electron-builder --linux --x64 --publish always",
     "dist": "npm install && npm-run-all -s relay:build:win overlay:build build:tray:win",
-    "dist:publish": "npm install && npm-run-all -s overlay:build build:tray:publish"
+    "dist:publish": "npm install && npm-run-all -s overlay:build build:tray:publish:win build:tray:publish:linux"
   },
   "author": "OxCone",
   "license": "MIT",
