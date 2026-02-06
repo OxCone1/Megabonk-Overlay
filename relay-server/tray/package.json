@@ -1,12 +1,18 @@
 {
   "name": "megabonk-overlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Overlay for Megabonk's ranked mod MegaLadder",
   "main": "main.js",
+  "repository": "https://github.com/OxCone1/Megabonk-Overlay",
   "scripts": {
     "start": "electron .",
     "dev": "electron .",
-    "dist": "electron-builder --win --x64 --publish never"
+    "relay:build": "cd .. && npm install && npm run build",
+    "overlay:build": "cd ../../obs-megabonk-overlay && npm install && npm run build",
+    "build:tray": "electron-builder --win --x64 --publish never",
+    "build:tray:publish": "electron-builder --win --x64 --publish always",
+    "dist": "npm install && npm-run-all -s relay:build overlay:build build:tray",
+    "dist:publish": "npm install && npm-run-all -s relay:build overlay:build build:tray:publish"
   },
   "author": "OxCone",
   "license": "MIT",
@@ -15,7 +21,8 @@
     "electron-builder": "^26.5.0"
   },
   "dependencies": {
-    "electron-updater": "^6.7.3"
+    "electron-updater": "^6.7.3",
+    "npm-run-all": "^4.1.5"
   },
   "build": {
     "appId": "com.megabonk.overlay",
@@ -45,6 +52,12 @@
     },
     "directories": {
       "output": "../dist"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "OxCone1",
+      "repo": "Megabonk-Overlay",
+      "releaseType": "release"
     }
   }
 }

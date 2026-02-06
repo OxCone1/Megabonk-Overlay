@@ -2102,10 +2102,11 @@ function SettingsPanel() {
           <span>{t('byOxCone', 'by OxCone')}</span>
         </div>
         <a
-          href=""
-          onClick={(event) => event.preventDefault()}
-          className="p-2 rounded hover:bg-sidebar-accent/60 text-sidebar-foreground/60 hover:text-sidebar-foreground"
+          href="https://github.com/OxCone1/Megabonk-Overlay"
+          className="p-2 rounded-md hover:bg-sidebar-accent/80 text-sidebar-foreground/80 hover:text-sidebar-foreground"
           title={t('githubLink', 'GitHub')}
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <Github size={18} strokeWidth={2} absoluteStrokeWidth/>
         </a>

@@ -1,5 +1,7 @@
+# GITHUB
+.github/agents
+
 # GENERAL IDE
-.github/*
 .playwright-mcp/*
 .vscode/*
 
@@ -11,6 +13,7 @@ obs-megabonk-overlay/package-lock.json
 obs-megabonk-overlay/dist/
 obs-megabonk-overlay/node_modules/
 obs-megabonk-overlay/README.md
+obs-megabonk-overlay/src/smartInteractionsStore_experimental.js
 
 # BACKEND (RELAY SERVER)
 relay-server/node_modules/
@@ -28,3 +31,4 @@ relay-server/tray/README.md
 MEGABONK_GAME_KNOWLEDGE.md
 RELAY_SERVER_DOCUMENTATION.md
 .env
+
