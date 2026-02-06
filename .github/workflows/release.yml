@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install system deps (Wine/NSIS)
         run: |
@@ -41,24 +41,36 @@ jobs:
         working-directory: relay-server/tray
         run: npm ci
 
-      - name: Build and publish tray
+      - name: Build tray (no publish)
         working-directory: relay-server/tray
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run dist:publish
+        run: npm run dist
 
-      - name: Read app version
-        id: app_version
-        working-directory: relay-server/tray
-        run: echo "version=$(node -p \"require('./package.json').version\")" >> $GITHUB_OUTPUT
+      - name: List built artifacts
+        run: ls -la relay-server/dist || true
 
       - name: Zip extension
         run: |
           rm -f extension.zip
           zip -r extension.zip extension
 
-      - name: Upload extension.zip to release
+      - name: Create draft release and upload assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          draft: true
+          files: |
+            relay-server/dist/*.exe
+            relay-server/dist/*.yml
+            relay-server/dist/*.blockmap
+            extension.zip
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh release upload "v${{ steps.app_version.outputs.version }}" extension.zip --clobber
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install gh CLI
+        uses: cli/cli@v3
+
+      - name: Publish release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release edit "${{ github.ref_name }}" --draft=false
