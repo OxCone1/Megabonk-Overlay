@@ -7,12 +7,15 @@
   "scripts": {
     "start": "electron .",
     "dev": "electron .",
-    "relay:build": "cd .. && npm install && npm run build",
+    "relay:build:win": "cd .. && npm install && npm run build:win",
+    "relay:build:linux": "cd .. && npm install && npm run build:linux",
     "overlay:build": "cd ../../obs-megabonk-overlay && npm install && npm run build",
-    "build:tray": "electron-builder --win --x64 --publish never",
-    "build:tray:publish": "electron-builder --win --x64 --publish always",
-    "dist": "npm install && npm-run-all -s relay:build overlay:build build:tray",
-    "dist:publish": "npm install && npm-run-all -s relay:build overlay:build build:tray:publish"
+    "build:tray:win": "electron-builder --win --x64 --publish never",
+    "build:tray:linux": "electron-builder --linux --x64 --publish never",
+    "build:tray:publish:win": "electron-builder --win --x64 --publish always",
+    "build:tray:publish:linux": "electron-builder --linux --x64 --publish always",
+    "dist": "npm install && npm-run-all -s relay:build:win overlay:build build:tray:win",
+    "dist:publish": "npm install && npm-run-all -s overlay:build build:tray:publish"
   },
   "author": "OxCone",
   "license": "MIT",
@@ -29,26 +32,34 @@
     "productName": "MegaBonk Overlay",
     "extraResources": [
       {
-        "from": "../dist/MegaBonkRelay.exe",
-        "to": "MegaBonkRelay.exe"
-      },
-      {
         "from": "../../obs-megabonk-overlay/dist",
         "to": "overlay"
       }
     ],
     "win": {
       "icon": "images/megaicon_v2.ico",
-      "target": [
-        "nsis"
-      ],
-      "artifactName": "MegaBonkOverlay.exe"
+      "target": ["nsis"],
+      "artifactName": "MegaBonkOverlay.exe",
+      "extraResources": [
+        {
+          "from": "../dist/MegaBonkRelay.exe",
+          "to": "MegaBonkRelay.exe"
+        }
+      ]
     },
     "mac": {
       "icon": "images/megaicon_v2.icns"
     },
     "linux": {
-      "icon": "images/megaicon_v2.png"
+      "icon": "images/megaicon_v2.png",
+      "target": ["AppImage"],
+      "artifactName": "MegaBonkOverlay.AppImage",
+      "extraResources": [
+        {
+          "from": "../dist/MegaBonkRelay",
+          "to": "MegaBonkRelay"
+        }
+      ]
     },
     "directories": {
       "output": "../dist"

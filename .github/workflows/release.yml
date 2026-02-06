@@ -4,6 +4,10 @@ on:
   push:
     tags:
       - "v*.*.*"
+    branches:
+      - master
+    paths:
+      - 'relay-server/tray/**'
   workflow_dispatch:
 
 jobs:
@@ -27,11 +31,13 @@ jobs:
         run: |
           sudo dpkg --add-architecture i386
           sudo apt-get update
-          sudo apt-get install -y wine64 wine32 nsis icoutils cabextract zip
+          sudo apt-get install -y wine64 wine32 nsis icoutils cabextract zip libfuse2
 
-      - name: Install relay-server deps
+      - name: Build relay (win+linux)
         working-directory: relay-server
-        run: npm ci
+        run: |
+          npm ci
+          npm run build
 
       - name: Install overlay deps
         working-directory: obs-megabonk-overlay

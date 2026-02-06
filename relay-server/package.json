@@ -6,12 +6,16 @@
   "bin": "relay-server.js",
   "scripts": {
     "start": "node relay-server.js",
-    "build": "pkg . --targets node18-win-x64 --output dist/MegaBonkRelay.exe --compress GZip"
+    "build": "npm run build:linux && npm run build:win",
+    "build:win": "pkg . --targets node18-win-x64 --output dist/MegaBonkRelay.exe --compress GZip",
+    "build:linux": "pkg . --targets node18-linux-x64 --output dist/MegaBonkRelay --compress GZip",
+    "postbuild:linux": "chmod +x dist/MegaBonkRelay"
   },
   "pkg": {
     "assets": [],
     "targets": [
-      "node18-win-x64"
+      "node18-win-x64",
+      "node18-linux-x64"
     ],
     "outputPath": "dist",
     "compress": "GZip"
