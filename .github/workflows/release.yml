@@ -41,36 +41,25 @@ jobs:
         working-directory: relay-server/tray
         run: npm ci
 
-      - name: Build tray (no publish)
+      - name: Build and publish tray
         working-directory: relay-server/tray
-        run: npm run dist
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run dist:publish
 
-      - name: List built artifacts
-        run: ls -la relay-server/dist || true
+      - name: Read app version
+        id: app_version
+        working-directory: relay-server/tray
+        run: |
+          echo "version=$(node -p 'require(\"./package.json\").version')" >> $GITHUB_OUTPUT
 
       - name: Zip extension
         run: |
           rm -f extension.zip
           zip -r extension.zip extension
 
-      - name: Create draft release and upload assets
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ github.ref_name }}
-          name: Release ${{ github.ref_name }}
-          draft: true
-          files: |
-            relay-server/dist/*.exe
-            relay-server/dist/*.yml
-            relay-server/dist/*.blockmap
-            extension.zip
+      - name: Upload extension.zip to release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install gh CLI
-        uses: cli/cli@v3
-
-      - name: Publish release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release edit "${{ github.ref_name }}" --draft=false
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "v${{ steps.app_version.outputs.version }}" extension.zip --clobber
