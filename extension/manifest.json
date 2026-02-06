@@ -3,6 +3,9 @@
   "name": "MegaBonk WS Bridge",
   "version": "1.0",
   "description": "Intercepts WebSocket traffic on ladder.megabonk.su and forwards to relay server",
+  "icons": {
+    "128": "images/megaicon_v2.png"
+  },
   "permissions": ["scripting"],
   "host_permissions": ["https://ladder.megabonk.su/*"],
   "background": {

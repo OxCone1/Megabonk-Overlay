@@ -1,6 +1,6 @@
 {
   "name": "megabonk-overlay",
-  "version": "1.0.3-test",
+  "version": "1.0.4",
   "description": "Overlay for Megabonk's ranked mod MegaLadder",
   "main": "main.js",
   "repository": "https://github.com/OxCone1/Megabonk-Overlay",
