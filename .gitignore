@@ -9,7 +9,7 @@
 extension/extension.zip
 
 # FRONTEND (OVERLAY)
-obs-megabonk-overlay/package-lock.json
+# obs-megabonk-overlay/package-lock.json # Restored to inculde into repository for building purposes
 obs-megabonk-overlay/dist/
 obs-megabonk-overlay/node_modules/
 obs-megabonk-overlay/README.md
@@ -17,14 +17,14 @@ obs-megabonk-overlay/src/smartInteractionsStore_experimental.js
 
 # BACKEND (RELAY SERVER)
 relay-server/node_modules/
-relay-server/package-lock.json
+# relay-server/package-lock.json # Restored to inculde into repository for building purposes
 relay-server/dist/
 relay-server/start-hidden.vbs
 relay-server/*.log
 
 # TRAY APP
 relay-server/tray/node_modules/
-relay-server/tray/package-lock.json
+# relay-server/tray/package-lock.json # Restored to inculde into repository for building purposes
 relay-server/tray/README.md
 
 # REPO IGNORES
