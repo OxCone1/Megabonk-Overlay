@@ -22,7 +22,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
 
       - name: Install system deps (Wine/NSIS)
         run: |
@@ -30,7 +29,16 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y wine64 wine32 nsis icoutils cabextract zip
 
-      - name: Install root deps
+      - name: Install relay-server deps
+        working-directory: relay-server
+        run: npm ci
+
+      - name: Install overlay deps
+        working-directory: obs-megabonk-overlay
+        run: npm ci
+
+      - name: Install tray deps
+        working-directory: relay-server/tray
         run: npm ci
 
       - name: Build and publish tray
