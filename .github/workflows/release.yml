@@ -50,8 +50,7 @@ jobs:
       - name: Read app version
         id: app_version
         working-directory: relay-server/tray
-        run: |
-          echo "version=$(node -p 'require(\"./package.json\").version')" >> $GITHUB_OUTPUT
+        run: echo "version=$(jq -r .version package.json)" >> $GITHUB_OUTPUT
 
       - name: Zip extension
         run: |
