@@ -4,6 +4,10 @@ on:
   push:
     tags:
       - "v*.*.*"
+    branches:
+      - master
+    paths:
+      - 'relay-server/tray/**'
   workflow_dispatch:
 
 jobs:
