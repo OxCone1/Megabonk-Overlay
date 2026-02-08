@@ -2,6 +2,10 @@
 
 ---
 
+## Project was approved by Megaladder administration. This repository is an **unofficial** project developed independently by a community member and is not affiliated with or endorsed by the game's developers and/or the Megaladder development team.
+
+![Proof of Approval](./docs/images/admin_proof_en.png)
+
 ## 0. Table of Contents (EN)
 
 | English Table of Contents | Russian Table of Contents |
@@ -632,8 +636,11 @@ Megabonk-OBS/
 *Last Updated: February 2026*
 *Repository: https://github.com/OxCone1/Megabonk-Overlay*
 
-
 ---
+
+## Проект был одобрен администрацией Megaladder. Этот репозиторий является **неофициальным** проектом, разработанным независимо одним из участников сообщества и не связан с разработчиками игры и/или модификации Megaladder
+
+![Proof of Approval](./docs/images/admin_proof_ru.png)
 
 ## 0. Содержание (RU)
 
