@@ -2,6 +2,8 @@
 
 ---
 
+# !! ATTENTION !! PROJECT HAS BEEN INTEGRATED INTO THE GAME AND IS NOW OFFICIALLY MAINTAINED BY THE DEVELOPERS! THIS REPOSITORY IS ARCHIVED AND NO LONGER MAINTAINED. FOR THE OFFICIAL VERSION OF THE OVERLAY, PLEASE REFER TO THE GAME'S BUILT-IN OVERLAY FEATURE !!
+
 ## Project was approved by Megaladder administration. This repository is an **unofficial** project developed independently by a community member and is not affiliated with or endorsed by the game's developers and/or the Megaladder development team.
 
 ![Proof of Approval](./docs/images/admin_proof_en.png)
@@ -637,6 +639,9 @@ Megabonk-OBS/
 *Repository: https://github.com/OxCone1/Megabonk-Overlay*
 
 ---
+
+# !! ВНИМАНИЕ !! ПРОЕКТ БЫЛ ИНТЕГРИРОВАН В ИГРУ И ТЕПЕРЬ ОФИЦИАЛЬНО ПОДДЕРЖИВАЕТСЯ РАЗРАБОТЧИКАМИ! ДАННЫЙ РЕПОЗИТОРИЙ АРХИВИРОВАН И БОЛЬШЕ НЕ ПОДДЕРЖИВАЕТСЯ. ДЛЯ ОФИЦИАЛЬНОЙ ВЕРСИИ ОВЕРЛЕЯ, ПОЖАЛУЙСТА, ИЗУЧИТЕ ВСТРОЕННУЮ ФУНКЦИЮ ОВЕРЛЕЯ В ИГРЕ !!
+
 
 ## Проект был одобрен администрацией Megaladder. Этот репозиторий является **неофициальным** проектом, разработанным независимо одним из участников сообщества и не связан с разработчиками игры и/или модификации Megaladder
 
